@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Millik';
+    src: url('MillikRegular.woff2') format('woff2'),
+        url('MillikRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

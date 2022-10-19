@@ -1,0 +1,67 @@
+// kid-Frame-section-area
+.kid-events-section-area {
+    .events-heading-area {
+        margin-bottom: 55px;
+        .event-title {
+            h3 {
+                font-weight: 400;
+            }
+        }
+    }
+    .details-image {
+        img {
+            border-radius: 16px 16px;
+            margin-bottom: 15px;
+        }
+    }
+    .download-text {
+        color: #6941c6;
+        font-size: 12px;
+        font-weight: 500;
+        i {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+    }
+    .event-content-box {
+        .kid-heading-area {
+            .sub-title {
+                font-size: 16px;
+            }
+        }
+    }
+    .event-date-list-box {
+        .date-box {
+            margin-right: 45px;
+            &:last-child {
+                margin-right: 0;
+            }
+            span {
+                font-size: 10px;
+                font-weight: 700;
+            }
+            .event-month {
+                font-size: 16px;
+                font-weight: 600;
+                color: #121212;
+            }
+        }
+    }
+    .event-map-area {
+        margin-bottom: 40px;
+        .map-location {
+            margin-right: 30px;
+            .location {
+                font-size: 10px;
+                font-weight: 700;
+            }
+        }
+        ul {
+            li {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.3;
+            }
+        }
+    }
+}

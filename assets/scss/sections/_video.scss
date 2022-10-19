@@ -1,0 +1,51 @@
+// kid-video-section-area
+.kid-video-section-area {
+    padding-bottom: 290px;
+    position: relative;
+    .kid-video-content {
+        padding-left: 30px;
+        p {
+            font-size: 24px;
+        }
+    }
+    .kid-video {
+        position: relative;
+        .video-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            i {
+                width: 80px;
+                height: 80px;
+                line-height: 80px;
+                text-align: center;
+                border-radius: 50%;
+                background: $whiteColor;
+                color: $titleColor;
+                display: inline-block;
+                font-size: 45px;
+            }
+        }
+    }
+}
+// kid-video-section-area
+.kid-video-section-area2 {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 230px;
+    .kid-heading-area {
+        .video-title {
+            margin-bottom: 100px;
+        }
+    }
+    .kid-video {
+        margin-bottom: 125px;
+    }
+    .kid-video-visin-area {
+        margin-bottom: 80px;
+        .des {
+            margin-bottom: 0;
+        }
+    }
+}

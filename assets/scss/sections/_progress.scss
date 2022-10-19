@@ -1,0 +1,71 @@
+// kid-progress-section-area
+.kid-progress-section-area {
+    padding-bottom: 235px;
+    .progress-image {
+        img {
+            border-radius: 32px;
+        }
+    }
+    .first-image {
+        margin-bottom: 65px;
+    }
+    .kid-heading-area {
+        p {
+            font-size: 18px;
+        }
+    }
+    .progress-content-area {
+        .kid-progressbar-area {
+            .progress {
+                height: 12px;
+                margin-bottom: 8px;
+                .progress-bar {
+                    background-color: $primaryColor;
+                    border-radius: 0 10px 10px 0;
+                }
+            }
+        }
+        .kid-progress-price-area {
+            margin-bottom: 15px;
+            .price-left-area {
+                .price-title {
+                    margin-bottom: -15px;
+                }
+                .price {
+                    font-size: 10px;
+                    font-weight: 400;
+                }
+            }
+            .text-end {
+                text-align: end;
+            }
+        }
+        .progress-images-area {
+            img {
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .kid-icon-btn {
+        margin-top: 90px;
+    }
+}
+// kid-progress-section-area2
+.kid-progress-section-area2 {
+    padding-bottom: 385px;
+    .heading-area {
+        .sec-title {
+            font-weight: 400;
+        }
+    }
+    .filter-btn {
+        a {
+            border: 1px solid #c4c4c4;
+            color: $bodyColor;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 10px 10px;
+            border-radius: 8px;
+        }
+    }
+}

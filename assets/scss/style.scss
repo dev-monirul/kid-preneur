@@ -1,0 +1,83 @@
+/*============================================================
+[Master Stylesheet]
+
+=========================================================*/
+/*=======================================================
+TABLE OF CONTENTS:
+
+01 global Style
+
+====== section stylsheet ======
+====== responsive stylsheet ======
+23 responsive style  */
+
+@font-face {
+    font-family: "Millik";
+    src: url("../fonts/MillikRegular.woff2") format("woff2"), url("../fonts/MillikRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import "main/variable";
+// //*========== 01 global Style ==========*//
+@import "main/global";
+
+// //*========== 02 header section ==========*//
+@import "sections/header";
+
+//*========== 03 banner section ==========*//
+@import "sections/banner";
+
+//*========== 04 Video section ==========*//
+@import "sections/video";
+
+//*========== 05 service section ==========*//
+@import "sections/service";
+
+//*========== 06 Slider section ==========*//
+@import "sections/canvas";
+
+//*========== 06 Slider section ==========*//
+@import "sections/slider";
+
+//*========== 07 Contract section ==========*//
+@import "sections/contract";
+
+//*========== 08 Progress section ==========*//
+@import "sections/progress";
+
+//*========== 09 Testimonial section ==========*//
+@import "sections/testimonial";
+
+//*========== 10 Team section ==========*//
+@import "sections/team";
+
+//*========== 11 popular section ==========*//
+@import "sections/popular";
+
+//*========== 12 Text section ==========*//
+@import "sections/text";
+
+//*========== 13 Form section ==========*//
+@import "sections/form";
+
+//*========== 14 Gallery section ==========*//
+@import "sections/gallery";
+
+//*========== 15 business section ==========*//
+@import "sections/frame";
+
+//*========== 15 business section ==========*//
+@import "sections/introduction";
+
+//*========== 16 Footer section ==========*//
+@import "sections/footer";
+
+//*========== 17 Copyright section ==========*//
+@import "sections/copyright";
+
+// /*########## page style ##########*/
+
+//*========== 23 responsive style ==========*//
+@import "main/responsive";

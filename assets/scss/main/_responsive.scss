@@ -1,0 +1,358 @@
+#myTabContent {
+    position: relative;
+    .product-grid {
+        position: relative;
+    }
+    .kdp-product-inner {
+        position: relative;
+        display: inline-block;
+        float: left;
+    }
+}
+@media only screen and (max-width: 1650px) {
+    .kdp-banner-section-area .kdp-banner-item .banner-header-content {
+        margin-left: 28.5%;
+    }
+    .kdp-testimonial-section-area .kdp-testimonial-text {
+        right: 12%;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .kid-banner-section-area .kid-banner-content-area {
+        margin-right: 50px;
+    }
+}
+@media only screen and (min-width: 1366px) {
+    .container {
+        max-width: 1240px;
+    }
+    .video-container {
+        max-width: 1010px;
+    }
+    .team-container {
+        max-width: 780px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .kid-testimonial-section-area .myTestimonial {
+        padding-left: 3%;
+        padding-right: 15%;
+    }
+    .kid-testimonial-section-area .kid-testimonial-item .test-content-box {
+        margin-right: 50px;
+    }
+}
+
+/*as col-md*/
+@media only screen and (max-width: 1366px) {
+    .kid-banner-section-area .image_3 {
+        top: 45px;
+        right: 125px;
+    }
+}
+
+/*as col-md*/
+@media only screen and (max-width: 1199px) {
+    .kdp-header-section .kdp-main-menu > ul > li {
+        margin-right: 30px;
+    }
+    .kid-banner-section-area .kid-banner-content-area .banner-title {
+        font-size: 65px;
+    }
+    .kid-footer-section-area .kid-testimonial-form-area .email-box input {
+        width: 248px;
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .kdp-group-section-area .tecnica {
+        left: 0;
+    }
+}
+/*as col-sm*/
+/*large mobile device*/
+@media only screen and (min-width: 992px) {
+    .kid-product-offcanvas-area .mobile-navbar-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-btn-area .canvas {
+        display: inline-block !important;
+    }
+    .kdp-header-section .canvas {
+        display: inline-block !important;
+    }
+    .kdp-header-section .canvas a {
+        color: $primaryColor;
+        transition: 0.4s;
+        font-size: 20px;
+    }
+    .kid-text-gallery-section-area2 .gallery-text-area {
+        margin: 0 auto 50px;
+    }
+    .kid-text-gallery-section-area2 {
+        padding-top: 50px;
+    }
+    .kdp-header-section .canvas a i {
+        top: -3px;
+    }
+    .kdp-header-section .canvas a:hover {
+        color: $primaryColor;
+    }
+    &.kdp-header-sticky .canvas a {
+        color: $primaryColor;
+    }
+    &.kdp-header-sticky .canvas a:hover {
+        color: $primaryColor;
+    }
+    .heading-area {
+        margin-bottom: 45px;
+    }
+    .kid-text-section-area {
+        padding-bottom: 120px;
+    }
+    .kid-text-gallery-section-area h1,
+    .kid-text-gallery-section-area h1,
+    .kid-text-section-area h1 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .margin-bottom {
+        margin-bottom: 35px;
+    }
+    .kid-service-section-area2 .border-bottom {
+        padding-bottom: 80px;
+        margin-bottom: 75px;
+    }
+    .kid-testimonial-section-area .myTestimonial {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .kid-progress-section-area .progress-content-area {
+        margin-bottom: 60px;
+    }
+    .kid-progress-section-area .content-two {
+        margin-bottom: 0;
+    }
+    .kid-progress-section-area .first-image {
+        margin-bottom: 55px;
+    }
+    .kid-progress-section-area .progress-image {
+        margin-bottom: 55px;
+    }
+    .kid-progress-section-area2 {
+        padding-bottom: 70px;
+    }
+    .kid-text-gallery-section-area {
+        padding-bottom: 100px;
+    }
+    .kid-gallery-section-area .gallery-bottom {
+        padding-bottom: 45px;
+        margin-bottom: 70px;
+    }
+    .kid-gallery-section-area2 .gallery-bottom2 {
+        padding-bottom: 45px;
+        margin-bottom: 80px;
+    }
+    .kid-service-section-area1 {
+        padding-bottom: 120px;
+    }
+    .kdp-header-section .kdp-main-menu {
+        display: none;
+    }
+    .kid-video-section-area .kid-video img {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .kid-banner-section-area,
+    .kid-about-contact-section-area,
+    .kid-popular-section-area,
+    .kid-team-section-area,
+    .kid-progress-section-area,
+    .kid-slider-section-area,
+    .kid-service-section-area,
+    .kid-video-section-area {
+        padding-bottom: 100px;
+    }
+    .kid-footer-section-area .kid-testimonial-form-area {
+        justify-content: start !important;
+        margin-bottom: 50px;
+    }
+    .kid-footer-section-area .header-bottom {
+        margin-bottom: 45px;
+    }
+    .kid-footer-section-area .kid-footer-logo {
+        margin-bottom: 25px;
+    }
+    .kid-video-section-area2 .kid-heading-area .video-title {
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .kid-video-section-area2 .kid-heading-area .video-title {
+        margin-bottom: 80px;
+    }
+    .kid-video-section-area2 .kid-video {
+        margin-bottom: 25px;
+    }
+    .kid-video-section-area2 .video-bottom {
+        margin-bottom: 0;
+    }
+    .kid-about-contact-section-area .contact-map-area {
+        text-align: start !important;
+    }
+    .kid-about-contact-section-area .contact-content-box {
+        margin-bottom: 50px;
+    }
+    .kid-text-section-area1 .kid-text-section-area {
+        margin-bottom: 70px;
+    }
+    .kid-service-section-area2 {
+        padding-bottom: 40px;
+    }
+    .kid-testimonial-section-area .kid-testimonial-item .test-content-box .test-des {
+        margin-bottom: 20px;
+    }
+    .kid-testimonial-section-area .sec-title {
+        font-size: 30px;
+    }
+    .kid-testimonial-section-area {
+        padding-bottom: 80px;
+    }
+    .kid-banner-section-area .kid-banner-image-area {
+        margin-right: 0;
+        top: 20px;
+    }
+    .kid-banner-section-area .image_3 {
+        top: 240px;
+    }
+    .kid-banner-section-area .image_2 {
+        left: 0;
+        bottom: 75px;
+    }
+    .kid-banner-section-area .image_1 {
+        left: 0;
+        bottom: 0;
+    }
+    .kid-video-section-area .kid-video-content {
+        padding-left: 0;
+    }
+    .kid-testimonial-section-area .swiper-pointer-events.swiper {
+        left: 3%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .kid-text-section-area h1 {
+        font-size: 45px;
+    }
+    .kid-progress-section-area2 .filter-btn,
+    .kid-service-section-area2 .filter-btn {
+        text-align: start !important;
+        margin-bottom: 45px;
+    }
+    .kid-testimonial-section-area .kid-testimonial-content {
+        display: block !important;
+    }
+    .kdp-header-section .header-btn {
+        display: none;
+    }
+    .kid-banner-section-area {
+        padding-bottom: 100px;
+        padding-top: 40px;
+    }
+    .kid-banner-section-area .kid-banner-content-area .banner-title {
+        font-size: 42px;
+        line-height: 1.35;
+    }
+    .kid-testimonial-section-area .kid-testimonial-item .test-slider-image {
+        margin-bottom: 75px;
+    }
+    .kid-testimonial-section-area .swiper-button-next,
+    .swiper-button-prev {
+        top: 25%;
+    }
+}
+
+/*medium mobile device*/
+@media only screen and (max-width: 575px) {
+    .kdp-main-logo .default-logo img,
+    .kdp-main-logo .sticky-logo img {
+        max-width: 100px;
+    }
+    .kid-about-contact-section-area .contact-content-box .contact-title {
+        font-size: 25px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 25%;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 0;
+    }
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 0;
+    }
+    .kid-video-section-area2 .kid-heading-area .video-title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .kid-video-section-area2 .kid-video-visin-area .des {
+        font-size: 20px;
+    }
+}
+
+/*medium mobile device*/
+@media only screen and (max-width: 480px) {
+    .kdp-product-offcanvas-area {
+        width: 245px;
+    }
+    .kid-text-gallery-section-area h1,
+    .kid-text-section-area h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .kid-heading-area .title {
+        font-size: 20px;
+    }
+    .kid-about-contact-section-area .contact-content-box .kid-contact-tel ul li a {
+        font-size: 20px;
+    }
+    .kid-testimonial-section-area .sec-title,
+    .kid-popular-section-area .sec-title {
+        font-size: 30px;
+    }
+    .kid-footer-section-area .kid-testimonial-form-area {
+        display: block !important;
+    }
+    .kid-footer-section-area .kid-testimonial-form-area .email-box {
+        margin-bottom: 30px;
+    }
+    .kid-banner-section-area .kid-banner-content-area .banner-title {
+        font-size: 36px;
+    }
+    .kid-video-section-area .kid-video-content p {
+        font-size: 20px;
+    }
+    .heading-area {
+        font-size: 30px;
+    }
+    .kid-banner-section-area .image_1 {
+        left: 20px;
+    }
+    .kid-banner-section-area .image_2 {
+        left: 15px;
+    }
+    .trm-product-offcanvas-area {
+        width: 250px;
+    }
+    .kid-about-contact-section-area .contact-map-area iframe {
+        width: 285px;
+        height: 300px;
+    }
+    .kid-slider-section-area .heading-area .sec-title {
+        font-size: 28px;
+    }
+}
+/*small mobile device*/

@@ -1,0 +1,45 @@
+.kid-slider-section-area {
+    padding-bottom: 200px;
+    .kid-slider-text {
+        max-width: 480px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .kid-icon-btn {
+        margin-top: 70px;
+    }
+    .container-fluid {
+        max-width: 1480px;
+        margin: 0 auto;
+    }
+    .heading-area {
+        margin-bottom: 0;
+        .sec-title {
+            margin-bottom: 10px;
+            display: block;
+        }
+    }
+    .swiper-slide {
+        padding-top: 80px;
+        img {
+            transition: 0.4s;
+        }
+    }
+    .swiper-slide:not(.swiper-slide-active) {
+        img {
+            opacity: 0.3;
+            position: relative;
+            top: -58px;
+        }
+        &.swiper-slide-prev {
+            img {
+                transform: rotate(15deg);
+            }
+        }
+        &.swiper-slide-next {
+            img {
+                transform: matrix(-0.97, 0.26, 0.26, 0.97, 0, 0);
+            }
+        }
+    }
+}

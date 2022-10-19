@@ -1,0 +1,68 @@
+// <!--Sc Faq CSS -->
+.accordion-item {
+    border: none;
+    margin-bottom: 15px;
+    padding: 8px 0;
+    position: relative;
+    &.accordion-last {
+        border-bottom: 1px solid #000000;
+        border-radius: 0;
+    }
+    &::before {
+        position: absolute;
+        content: "";
+        top: -8px;
+        left: 0;
+        background-color: #000000;
+        height: 1px;
+        width: 100%;
+    }
+    .accordion-header {
+        .accordion-button {
+            font-size: 22px;
+            color: #424242;
+            font-weight: 400;
+            position: relative;
+            padding: 0;
+            &:before {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-family: "remixicon";
+                content: "\ea12";
+                color: $titleColor;
+                font-size: 20px;
+                transform: rotate(-180deg);
+            }
+            &:not(.collapsed) {
+                color: $primaryColor;
+                box-shadow: none;
+                background-color: transparent;
+                &:before {
+                    content: "";
+                    color: $primaryColor;
+                    position: absolute;
+                    width: 12px;
+                    height: 2px;
+                    background: $bodyColor;
+                    top: 5px;
+                    right: 30px;
+                }
+            }
+            &:focus {
+                box-shadow: none;
+            }
+            &:after {
+                display: none;
+            }
+        }
+    }
+    .accordion-body {
+        padding: 6px 0;
+        strong {
+            font-size: 16px;
+            color: $bodyColor;
+            font-weight: 400;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.kid-banner-section-area {
+    background: url(../images/icon/icon_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 310px;
+    padding-top: 100px;
+    position: relative;
+    .kid-banner-image-area {
+        margin-right: -95px;
+        position: relative;
+        top: -40px;
+    }
+    .kid-banner-content-area {
+        .banner-title {
+            margin-bottom: 10px;
+        }
+        .des {
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+    }
+    .banner-btn {
+        .primary {
+            margin-right: 10px;
+        }
+    }
+    .banner-image {
+        position: absolute;
+    }
+    .image_1 {
+        left: 0;
+        bottom: -145px;
+    }
+    .image_2 {
+        right: 39%;
+        bottom: -14px;
+    }
+    .image_3 {
+        top: -75px;
+        right: 45px;
+    }
+}

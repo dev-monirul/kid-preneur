@@ -1,0 +1,106 @@
+// <!--Sc Blog CSS -->
+.kdp-blog-section-area {
+    padding-top: 55px;
+    padding-bottom: 70px;
+    .heading-area {
+        margin-bottom: 45px;
+    }
+    .kdp-blog-item {
+        .blog-title {
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .blog-images {
+            overflow: hidden;
+            margin-bottom: 25px;
+            img {
+                transition: 0.4s;
+                transform: scale(1);
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+        .kdp-blog-content {
+            a {
+                color: #006747;
+                line-height: 1;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+            p {
+                font-size: 20px;
+                line-height: 1.2;
+            }
+        }
+    }
+    .sc-slick-slide {
+        position: relative;
+        .slick-arrow {
+            border: none;
+            padding: 0;
+            font-size: 0;
+            position: absolute;
+            top: -30px;
+            left: auto;
+            right: 40px;
+            transform: translate(-50%, -50%);
+            z-index: 9;
+            opacity: 1;
+            visibility: visible;
+            @include transition();
+            &::before {
+                position: absolute;
+                content: "\ea64";
+                top: -10px;
+                font-family: "remixicon";
+                color: $titleColor;
+                font-size: 16px;
+                z-index: 9;
+                width: 26px;
+                height: 26px;
+                display: inline-block;
+                text-align: center;
+                line-height: 26px;
+                border-radius: 50%;
+                border: 1px solid #c5c5c5;
+                @include transition();
+                background: transparent;
+                left: -38px;
+            }
+            &:hover {
+                &::before {
+                    background: $primaryColor;
+                    color: #fff;
+                    border-color: transparent;
+                }
+            }
+        }
+        .next {
+            left: auto;
+            right: 0;
+            top: -30px;
+            &::before {
+                content: "\ea6e";
+            }
+        }
+    }
+    &.kdp-blog-section-area2 {
+        padding-top: 115px;
+        padding-bottom: 45px;
+        .kdp-blog-item {
+            margin-bottom: 40px;
+            .blog-images {
+                margin-bottom: 35px;
+            }
+            .kdp-blog-content {
+                span {
+                    margin-bottom: 5px;
+                    display: block;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.kid-copyright-area {
+    padding-bottom: 15px;
+    .content-area {
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: $othersFont;
+            color: #98a2b3;
+        }
+        a {
+            color: #667085;
+            transition: 0.4s;
+            &:hover {
+                color: #98a2b3;
+            }
+        }
+    }
+}

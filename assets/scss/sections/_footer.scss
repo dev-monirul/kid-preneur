@@ -1,0 +1,93 @@
+// kid-footer-section-area
+.kid-footer-section-area {
+    .content-area {
+        border-bottom: 1px solid #eaecf0;
+        padding-bottom: 35px;
+        margin-bottom: 65px;
+    }
+    .footer-list-area {
+        border-bottom: 1px solid #eaecf0;
+        padding-bottom: 60px;
+        margin-bottom: 30px;
+    }
+    .kid-footer-content {
+        .footer-title {
+            font-size: 20px;
+            font-weight: 500;
+            font-family: $othersFont;
+            margin-bottom: 0;
+        }
+        .footer-des {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: $othersFont;
+            color: #667085;
+        }
+    }
+    .kid-testimonial-form-area {
+        .email-box {
+            margin-right: 15px;
+            input {
+                width: 280px;
+                border: 1px solid #d0d5dd;
+                border-radius: 8px;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: $othersFont;
+                height: 44px;
+                line-height: 44px;
+                padding: 0 15px;
+                box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+            }
+        }
+        .search-area {
+            input {
+                font-size: 16px;
+                font-weight: 400;
+                font-family: $othersFont;
+                background: $primaryColor;
+                color: $whiteColor;
+                border-radius: 8px;
+                box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+                width: 114px;
+                height: 44px;
+                line-height: 44px;
+                transition: 0.4;
+                &:hover {
+                    background: $secondaryColor;
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .header-area {
+        ul {
+            .active-color {
+                font-size: 14px;
+                line-height: 20px;
+                font-family: $othersFont;
+                font-weight: 600;
+                a {
+                    color: #98a2b3;
+                    transition: 0.4s;
+                    &:hover {
+                        color: #667085;
+                    }
+                }
+            }
+            li {
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: $othersFont;
+                    transition: 0.4s;
+                    line-height: 24px;
+                    color: #667085;
+                    &:hover {
+                        color: #98a2b3;
+                    }
+                }
+            }
+        }
+    }
+}

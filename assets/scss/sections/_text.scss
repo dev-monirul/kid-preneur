@@ -1,0 +1,43 @@
+// kid-text-section-area
+.kid-text-section-area {
+    padding-top: 85px;
+    padding-bottom: 280px;
+    .kid-text-area {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+}
+.kid-text-section-area1 {
+    .kid-text-area {
+        max-width: 880px;
+        margin: 0 auto;
+    }
+}
+// kid-text-gallery-section-area
+.kid-text-gallery-section-area {
+    padding-top: 85px;
+    padding-bottom: 150px;
+    .gallery-text-area {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    .filter-btn {
+        a {
+            border: 1px solid #c4c4c4;
+            color: $bodyColor;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 10px 10px;
+            border-radius: 8px;
+        }
+    }
+}
+// kid-text-gallery-section-area
+.kid-text-gallery-section-area2 {
+    padding-top: 85px;
+    padding-bottom: 150px;
+    .gallery-text-area {
+        max-width: 950px;
+        margin: 0 auto 250px;
+    }
+}

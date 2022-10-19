@@ -1,0 +1,65 @@
+// kid-introduction-section-area
+.kid-introduction-section-area {
+    .introduction-title-area {
+        margin-bottom: 40px;
+        .introduction {
+            font-size: 48px;
+            font-weight: 800;
+            font-family: $bodyFont;
+            margin-bottom: 15px;
+        }
+        span {
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+    .kid-video {
+        position: relative;
+        .video-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            i {
+                width: 80px;
+                height: 80px;
+                line-height: 80px;
+                text-align: center;
+                border-radius: 50%;
+                background: #ffffff;
+                color: #000000;
+                display: inline-block;
+                font-size: 45px;
+            }
+        }
+    }
+    .introduction-srcolling-area {
+        .nav-tabs {
+            border-bottom: transparent;
+        }
+        .introduction-link {
+            color: #888888;
+            font-size: 18px;
+            font-weight: 700;
+
+            &:hover {
+                border-color: transparent;
+            }
+        }
+        .active {
+            background-color: transparent;
+            border-color: transparent;
+            i {
+                background: #121212;
+                width: 15px;
+                height: 15px;
+                line-height: 15px;
+                border-radius: 50%;
+                text-align: center;
+                display: inline-block;
+                color: $whiteColor;
+                font-size: 11px;
+            }
+        }
+    }
+}

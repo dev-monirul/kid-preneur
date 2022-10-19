@@ -1,0 +1,65 @@
+// <!--Sc Service CSS -->
+.kid-service-section-area {
+    padding-bottom: 230px;
+    .kid-icon-btn {
+        margin-top: 90px;
+    }
+    .kid-service-item {
+        border-radius: 30px 30px;
+        border: 1px solid #c4c4c4;
+        p {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        img {
+            border-radius: 30px 30px 0 0;
+        }
+        .kid-service-content {
+            padding: 45px 25px 20px;
+        }
+    }
+}
+// <!--Sc Service CSS -->
+.kid-service-section-area1 {
+    padding-bottom: 360px;
+    .kid-service-item {
+        .kid-service-content {
+            .kid-heading-area {
+                .sub-title {
+                    margin-bottom: 0;
+                }
+            }
+            .date {
+                font-size: 10px;
+                font-weight: 600;
+                font-family: $subtitleFont;
+                display: block;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+// kid-service-section-area2
+.kid-service-section-area2 {
+    padding-bottom: 0;
+    .border-bottom {
+        border-bottom: 1px solid #c4c4c4;
+        padding-bottom: 150px;
+        margin-bottom: 90px;
+    }
+    .heading-area {
+        .sec-title {
+            font-weight: 400;
+        }
+    }
+    .filter-btn {
+        a {
+            border: 1px solid #c4c4c4;
+            color: $bodyColor;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 10px 10px;
+            border-radius: 8px;
+        }
+    }
+}

@@ -1,0 +1,148 @@
+// <!--Sc Header CSS -->
+.kdp-header-section {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+    @include transition(0.6s);
+    z-index: 9;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        left: 0;
+    }
+    &:not(.kdp-header-sticky) {
+        .sticky-logo {
+            display: none;
+        }
+    }
+    .kdp-main-menu {
+        > ul > li {
+            margin-right: 45px;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            position: relative;
+        }
+        li {
+            display: inline-block;
+            position: relative;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                color: $darkerColor;
+                font-size: 16px;
+                display: block;
+                font-weight: 600;
+                @include transition();
+                &:hover {
+                    color: #121212;
+                }
+            }
+        }
+    }
+    &.kdp-header-sticky {
+        background: $whiteColor;
+        padding: 10px 0;
+        z-index: 99;
+        .default-logo {
+            display: none;
+        }
+        .kdp-main-menu > ul > li > a {
+            color: $bodyColor;
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+    }
+    &.kdp-header-sticky {
+        position: fixed;
+        box-shadow: 0 2px 20px rgba($color: #000000, $alpha: 0.08);
+    }
+    li {
+        display: inline-block;
+        position: relative;
+        &:last-child {
+            margin-right: 0;
+        }
+        a {
+            color: $whiteColor;
+            font-size: 16px;
+            display: block;
+            @include transition();
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+        .sub-menu-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background: $whiteColor;
+            padding: 20px;
+            position: absolute;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 9;
+            top: 120%;
+            @include transition();
+            width: 200px;
+            box-shadow: 0 10px 15px rgba($color: #000000, $alpha: 0.1);
+            &::before {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 0%;
+                height: 3px;
+                background: $primaryColor;
+                content: "";
+                @include transition(0.6s);
+            }
+            li {
+                display: block;
+                padding-bottom: 5px;
+                @include transition();
+                position: relative;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+                a {
+                    color: #666;
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+                &::before {
+                    content: "";
+                    width: 0;
+                    height: 2px;
+                    background: $primaryColor;
+                    position: absolute;
+                    top: 18px;
+                    left: 0;
+                    @include transition();
+                }
+                &:hover {
+                    padding-left: 20px;
+                    &::before {
+                        width: 14px;
+                    }
+                }
+            }
+        }
+        &:hover {
+            .sub-menu-list {
+                opacity: 1;
+                visibility: visible;
+                top: 150%;
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
